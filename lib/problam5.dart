@@ -24,7 +24,7 @@ class FirstScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Center(child: Text('First Screen')),
-        backgroundColor: Colors.purple, // Changed from blue
+        backgroundColor: Colors.purple, 
       ),
       body: Center(
         child: ElevatedButton(
@@ -49,7 +49,7 @@ class SecondScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Center(child: Text('Second Screen')),
-        backgroundColor: Colors.amber, // Changed from green
+        backgroundColor: Colors.amber, 
       ),
       body: Center(
         child: ElevatedButton(
