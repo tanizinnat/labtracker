@@ -41,7 +41,7 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Center(child: Text("Welcome Back!")),
-        backgroundColor: Colors.teal, // Changed from blue
+        backgroundColor: Colors.teal, 
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -81,7 +81,7 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 20),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.purple, // Changed from green
+                  backgroundColor: Colors.purple, 
                   padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                   textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
